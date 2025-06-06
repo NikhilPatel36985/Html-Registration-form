@@ -1,0 +1,20 @@
+input {
+    font-size: 5px;
+}
+
+body {
+    /* background: linear-gradient(lightcoral,lightblue); */
+
+    /* background-image: url(img/download.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+
+    /* background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); */
+
+    background: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% ); 
+    /* background-color: rgb(223, 64, 64);
+    /* background-color: brown; */
+}

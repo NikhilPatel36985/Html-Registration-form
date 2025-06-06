@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            /* margin: 0; */
+        /* padding: 0; */
+        /* } */
+        input {
+            padding: 4px;
+            margin-bottom: 6%;
+            border-radius: 5px;
+
+        }
+
+        h1 {
+            margin-top: 0px;
+
+        }
+
+        b {
+            font-size: 17px;
+        }
+
+        body{
+    background: linear-gradient(lightcoral,lightblue);
+    background-repeat: no-repeat;
+    min-height: 97vh;
+}
+    </style>
+    <!-- <link rel="stylesheet" href="/new.css"> -->
+</head>
+
+<body>
+    <center>
+        <h1>HTML FORM</h1>
+    </center>
+    <form action="./t.html">
+
+        <table align="center">
+            <div>
+                <tr>
+                    <td> <b>First Name :</b></td>
+                    <!-- <td>:</td> -->
+                    <td><input type="text" name="name" id="f1" required placeholder="first name please" size="30"></td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td><b>Last name :</b></td>
+                    <!-- <td>:</td> -->
+                    <td><input type="text" name="name" id="f2" placeholder="last name please" size="30"></td>
+                </tr>
+            </div>
+            <tr>
+                <td><b>Father's Name :</b></td>
+                <!-- <td>:</td> -->
+                <td><input type="text" name="name" id="f4" placeholder="father name please" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Mother's Name :</b></td>
+                <!-- <td>:</td> -->
+                <td><input type="text" name="name" id="f5" placeholder="mather name please" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Date of Birth :</b></td>
+                <!-- <td>:</td> -->
+                <td><input type="date" name="date" id="f3"></td>
+            </tr>
+
+            <tr>
+                <td><b>Gender :</b></td>
+                <!-- <td>:</td> -->
+                <td><input type="radio" name="gender" id="f7"> <label for="f8">Male</label>&nbsp;&nbsp;<input
+                        type="radio" name="gender" id="f9"><label for="f10">Female</label></td>
+                <!-- <td><input type="radio" name="gender" id="f9"><label for="f10">Female</label></td> -->
+            </tr>
+            <tr>
+                <td><b>Email :</b></td>
+                <!-- <td>:</td> -->
+                <td><input type="email" name="Email" id="f6" placeholder="enter your email please" size="30"
+                        width="5px"></td>
+            </tr>
+            <tr>
+                <td><b>Language :</b></td>
+                <td><input type="checkbox" name="lang" id="11"><label for="15">C</label>&nbsp;&nbsp;<input
+                        type="checkbox" name="lang" id="12"><label for="16">C++</label>&nbsp;&nbsp;<input
+                        type="checkbox" name="lang" id="13"><label for="17">Python</label>&nbsp;&nbsp;<input
+                        type="checkbox" name="lang" id="14"><label for="18">Java</label></td>
+                <!-- <td><input type="checkbox" name="lang" id="12"><label for="16">C++</label></td>
+            <td><input type="checkbox" name="lang" id="13"><label for="17">Python</label></td>
+            <td><input type="checkbox" name="lang" id="14"><label for="18">Java</label></td> -->
+            </tr>
+            <tr>
+                <td><label for="21"><b>Language :</b>
+                <td></label><select name="name" id="id">
+                        <option value="select">select</option>
+                        <optgroup label="frnted">frnted</optgroup>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                </td>
+                <!-- <optgroup label="frnted">frnted</optgroup>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option> -->
+                </select></td>
+                <!-- <option value="java">Java</option> -->
+                <!-- <option value="python">Python
+                    
+                </option> -->
+                </select></td>
+                <!-- <select name="" id="">
+                <option value="select">select</option>
+                <optgroup label="frnted">frnted</optgroup>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+            </select> -->
+            </tr>
+            <tr>
+                <td><b>Address :</b></td>
+                <!-- <td>:</td> -->
+                <td><textarea name="text" id="1" rows="2" cols="30" placeholder="please your address "></textarea></td>
+            </tr>
+            <tr>
+                <td><b>File :</b></td>
+                <td><input type="file" name="file" id="21"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"> &nbsp;&nbsp;&nbsp;&nbsp; <input type="reset"></td>
+
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
